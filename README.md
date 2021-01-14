@@ -15,7 +15,7 @@ the same for all attributes, we didn't need to normalize them. We also used the 
 At the end we compared the classification algorithms in the previous parts in terms
 of misclassification rate and the following weighted cost; 
 
-c = (1/6916) sum[i=1:283](ci)
+c = (1/6916) sum[i=1:283] {ci}
 
 where ci is the cost of the decision for instance i in the test set. 283 is
 the total number of test instances, and 6916 is the maximum cost when all
